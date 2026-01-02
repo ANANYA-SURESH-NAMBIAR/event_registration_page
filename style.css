@@ -1,0 +1,242 @@
+body{
+    background-color: rgba(147, 112, 216, 0.3);
+}
+.d1{
+    /* background-color:azure; */
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+.d11{
+    background-color: lightpink;
+    border-radius: 20px;
+    margin: 10px;
+    padding:10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* css transitions */
+.d11:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+.d111{
+    background-color: mediumorchid;
+    color: white;
+    padding:10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: "Arimo", sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.para{
+    font-family: "Tagesschrift", system-ui;
+}
+header{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    /* padding:20px 50px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:auto;
+}
+/* #d{
+    display: flex;
+    flex-direction: row;
+} */
+#d2{
+    background-color: lightgrey;
+    width:max-content;
+    padding:10px;
+    border-radius: 20px;
+}
+/* #RegisButton{
+    padding-left: 5px;
+    padding-right: ;
+} */
+
+#button{
+    padding: 10px;
+    font-size: 20px;
+    background-color:darkseagreen;
+    border-color: aquamarine;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    animation: pulse 0.6s ease;
+}
+/* css transitions */
+#button:hover{
+    background-color: seagreen;
+    transform: scale(1.05);
+}
+/* css animations */
+@keyframes pulse{
+    0%{ transform: scale(1); }
+    50%{ transform: scale(1.08); }
+    100%{ transform: scale(1); }
+}
+
+#backButton{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color:darkseagreen;
+    border-color: aquamarine;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#backButton:hover{
+    background-color: seagreen;
+}
+
+#RegisButton{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#web_icon{
+    padding: 50px;
+}
+a{
+    text-decoration:none ;
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Arimo", sans-serif;
+}
+
+footer p{
+    margin: 5px 0;
+}
+
+
+/* registration form styling */
+#d2{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    margin: 60px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    font-family: "Arimo", sans-serif;
+}
+
+form h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkblue;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form input[type="checkbox"]{
+    margin-right: 8px;
+}
+
+#t_c{
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+#submitButton{
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: mediumorchid;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#submitButton:hover{
+    background-color: indigo;
+    transform: scale(1.03);
+}
+
+.radio-group,
+.checkbox-group{
+    margin-bottom: 15px;
+}
+
+.radio-group input,
+.checkbox-group input{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.checkbox-group{
+    line-height: 1.8;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: "Arimo", sans-serif;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* Hover & focus effect */
+select:hover{
+    border-color: mediumorchid;
+}
+
+select:focus{
+    outline: none;
+    border-color: indigo;
+    box-shadow: 0 0 5px rgba(75, 0, 130, 0.4);
+}
+
+#back{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
